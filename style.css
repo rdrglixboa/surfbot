@@ -73,6 +73,18 @@ p {
   margin-bottom: 1px;
 }
 
+.menu li:last-child span::after {
+  content: " ";
+  border-radius: 0px;
+  margin-left: 0px;
+  border-radius: 0px;
+  border: none;
+  background-color: #d91504;
+  display: block;
+  width: 106px;
+  height: 2px;
+}
+
 /* Introdução */
 
 /*.introducao-bg {

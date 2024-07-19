@@ -182,6 +182,20 @@ p {
   margin-top: 40px;
 }
 
+.descricao h1 span {
+  color: #18e;
+}
+
+.descricao ul span::before {
+  content: " ";
+  display: block;
+  max-width: 360px;
+  height: 2px;
+  background: #eff4f9;
+  margin-bottom: 32px;
+  margin-top: 40px;
+}
+
 .descricao p + p {
   margin-top: 30px;
 }

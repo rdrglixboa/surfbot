@@ -216,16 +216,38 @@ p {
   left: 12px;
 }
 
+.endereco {
+  position: relative;
+  bottom: 120px;
+}
+
 .endereco h2 {
   font-size: 14px;
   font-weight: bold;
   color: #17222d;
 }
 
+.endereco h2::before {
+  content: " ";
+  background-color: #fff;
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  border: #d91504 solid 2px;
+  border-radius: 6px;
+  margin-right: 6px;
+  margin-bottom: 1px;
+}
+
+.endereco li {
+  color: #99aabb;
+  font-size: 14px;
+}
 .endereco span {
+  color: #000;
   font-weight: bold;
 }
-/*
+
 .endereco span::before {
   content: " ";
   background-color: #18e;
@@ -233,12 +255,7 @@ p {
   height: 2px;
   width: 10px;
   margin-right: 4px;
-  margin-bottom: 3px;
-}
-*/
-.endereco p {
-  color: #99aabb;
-  font-size: 14px;
+  margin-bottom: 4px;
 }
 
 /* AULAS */

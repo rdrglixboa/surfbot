@@ -261,12 +261,19 @@ p {
 /* AULAS */
 
 .aulas-container {
+  position: relative;
   display: grid;
   background-color: #eff4f9;
   justify-content: center;
   grid-template-columns: minmax(0, 370px) minmax(0, 370px) minmax(0, 370px);
   gap: 30px;
   margin-top: 90px;
+}
+
+.ondas {
+  position: absolute;
+  justify-self: center;
+  top: -35px;
 }
 
 .aulas-container h1 {
@@ -301,6 +308,27 @@ p {
 .aulas-item {
   background-color: #fff;
   padding: 30px 70px 114px 70px;
+  position: relative;
+}
+
+.aulas-item span {
+  position: absolute;
+  display: flex;
+}
+
+.aulas-item:nth-of-type(1) span {
+  top: -20px;
+  left: 174px;
+}
+
+.aulas-item:nth-of-type(2) span {
+  top: -20px;
+  left: 163px;
+}
+
+.aulas-item:nth-of-type(3) span {
+  top: -20px;
+  left: 153px;
 }
 
 .aulas-item h2 {
